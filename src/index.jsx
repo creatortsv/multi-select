@@ -100,9 +100,10 @@ class MultiSelect extends Component {
    */
   render() {
     const {
+      name,
       fixed,
-
       options,
+
       wrapperClass,
       wrapperStyle,
       containerClass,
@@ -364,5 +365,8 @@ MultiSelect.defaultProps = {
     fixed: 'Fixed elements',
   },
 };
+
+MultiSelect.Option = Option;
+MultiSelect.Group = Group;
 
 export default MultiSelect;
