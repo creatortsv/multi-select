@@ -1,0 +1,52 @@
+{
+  "name": "@creatortsv/react-multi-select",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d examples/dist",
+    "publish-demo": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creatortsv/react-multi-select.git"
+  },
+  "author": "Vladimir Tsaplin <creatortsv@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/creatortsv/react-multi-select/issues"
+  },
+  "homepage": "https://github.com/creatortsv/react-multi-select#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "gh-pages": "^1.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.10",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2"
+  }
+}

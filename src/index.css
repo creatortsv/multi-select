@@ -1,0 +1,73 @@
+.ms--wrapper {
+    position: relative;
+}
+
+.ms--wrapper select {
+    display: none;
+}
+
+.ms--section {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.ms--section ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.ms--item,
+.ms--group {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.ms--group .ms--item,
+.ms--group .ms--group {
+    padding: 5px 15px;
+}
+
+.ms--item {
+    display: block;
+}
+
+.ms--toggle-open {
+    display: inline-block;
+    padding: 0 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.ms--toggle-open:after {
+    width: 30px;
+    content: '+';
+    color: white;
+}
+
+.ms--group__open>.ms--toggle-open:after {
+    content: '-';
+}
+
+.ms--group>div {
+    margin: 5px 0;
+}
+
+.ms--group .ms--item,
+.ms--group .ms--group {
+    cursor: pointer;
+    margin-left: 5px;
+    border-left: 1px dotted rgba(0, 0, 0, .2);
+}
+
+.ms--item:hover,
+.ms--group:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.ms--group.ms--group__open:hover {
+    background-color: transparent;
+}
