@@ -25,6 +25,11 @@
   "bugs": {
     "url": "https://github.com/creatortsv/react-multi-select/issues"
   },
+  "keywords": [
+    "react",
+    "select",
+    "multiple"
+  ],
   "homepage": "https://github.com/creatortsv/react-multi-select#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
