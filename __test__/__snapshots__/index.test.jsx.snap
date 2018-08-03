@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelect does not change list of selected and fixed options after term changed 1`] = `
+<div
+  className="ms--wrapper"
+  style={Object {}}
+>
+  <select
+    disabled={false}
+    multiple={true}
+    onChange={[Function]}
+    value={
+      Array [
+        3,
+      ]
+    }
+  >
+    <Option
+      key="0"
+      label="option"
+      value={1}
+    />
+    <Option
+      key="1"
+      label="option 2"
+      value={2}
+    />
+    <Option
+      key="2"
+      label="option 3"
+      value={3}
+    />
+  </select>
+  <div
+    className="ms--container"
+    style={Object {}}
+  >
+    <div
+      className="ms--section"
+      style={Object {}}
+    >
+      <div>
+        <input
+          className=""
+          onChange={[Function]}
+          placeholder="All elements"
+          style={
+            Object {
+              "display": "block",
+              "width": "100%",
+            }
+          }
+          value=""
+        />
+      </div>
+      <Group
+        className="ms--group"
+        disabled={false}
+        key="0"
+        label="group"
+        onSelect={[Function]}
+        open={false}
+        openClass="ms--group__open"
+        openStyle={Object {}}
+        style={Object {}}
+        values={
+          Array [
+            1,
+            2,
+          ]
+        }
+      >
+        <Component
+          active={false}
+          className="ms--item"
+          key="1"
+          label="option 2"
+          onSelect={[Function]}
+          pinned={false}
+          style={Object {}}
+          value={2}
+        />
+      </Group>
+      <div>
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          Select all
+        </a>
+      </div>
+    </div>
+    <div
+      className="ms--section"
+      style={Object {}}
+    >
+      <p>
+        Selected elements
+      </p>
+      <Component
+        active={true}
+        className="ms--item"
+        key="1"
+        label="option 3"
+        onSelect={[Function]}
+        pinned={false}
+        style={Object {}}
+        value={3}
+      />
+      <div>
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          Unselect all
+        </a>
+      </div>
+    </div>
+    <div
+      className="ms--section"
+      style={Object {}}
+    >
+      <p>
+        Fixed elements
+      </p>
+      <Component
+        active={false}
+        className="ms--item"
+        key="0"
+        label="option"
+        pinned={true}
+        style={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MultiSelect does not change list of selected and fixed options after term changed 2`] = `
+<div
+  className="ms--wrapper"
+  style={Object {}}
+>
+  <select
+    disabled={false}
+    multiple={true}
+    onChange={[Function]}
+    value={
+      Array [
+        3,
+      ]
+    }
+  >
+    <Option
+      key="0"
+      label="option"
+      value={1}
+    />
+    <Option
+      key="1"
+      label="option 2"
+      value={2}
+    />
+    <Option
+      key="2"
+      label="option 3"
+      value={3}
+    />
+  </select>
+  <div
+    className="ms--container"
+    style={Object {}}
+  >
+    <div
+      className="ms--section"
+      style={Object {}}
+    >
+      <div>
+        <input
+          className=""
+          onChange={[Function]}
+          placeholder="All elements"
+          style={
+            Object {
+              "display": "block",
+              "width": "100%",
+            }
+          }
+          value="text"
+        />
+      </div>
+      <Group
+        className="ms--group"
+        disabled={true}
+        key="0"
+        label="group"
+        onSelect={[Function]}
+        open={false}
+        openClass="ms--group__open"
+        openStyle={Object {}}
+        style={Object {}}
+        values={Array []}
+      />
+      <div>
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          Select all
+        </a>
+      </div>
+    </div>
+    <div
+      className="ms--section"
+      style={Object {}}
+    >
+      <p>
+        Selected elements
+      </p>
+      <Component
+        active={true}
+        className="ms--item"
+        key="1"
+        label="option 3"
+        onSelect={[Function]}
+        pinned={false}
+        style={Object {}}
+        value={3}
+      />
+      <div>
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          Unselect all
+        </a>
+      </div>
+    </div>
+    <div
+      className="ms--section"
+      style={Object {}}
+    >
+      <p>
+        Fixed elements
+      </p>
+      <Component
+        active={false}
+        className="ms--item"
+        key="0"
+        label="option"
+        pinned={true}
+        style={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;
